@@ -9,7 +9,7 @@
     <div class="row">
 
 
-        <?php include '../process/tampil_pengaduan-petugas.php'; ?>
+        <?php include '../process/tampil_pengaduan-admin.php'; ?>
 
         <!-- Semua Pengaduan -->
         <div class="col-xl-3 col-md-6 mb-4">
