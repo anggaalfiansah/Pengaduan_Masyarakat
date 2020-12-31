@@ -23,7 +23,7 @@
         $nomor = 1;
         $nomor2 = 1;
 
-        while ($rowlaporan = $qterkirim->fetch_assoc()) {
+        while ($rowlaporan = $qterima->fetch_assoc()) {
           
           include 'tabel.php';
 

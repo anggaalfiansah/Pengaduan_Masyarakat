@@ -1,5 +1,5 @@
 <?php
-include '../process/tampil_pengaduan-petugas.php';
+include '../process/tampil_pengaduan-admin.php';
 
 while ($rowlaporan = $qpengaduan->fetch_assoc()) { ?>
     <div class="modal fade" id="detailpengaduan<?php echo $rowlaporan['id_pengaduan']; ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
